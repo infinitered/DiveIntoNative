@@ -1,3 +1,3 @@
 import { requireNativeComponent } from 'react-native';
 
-export default requireNativeComponent('RNTWelcomeView', null);
+export default requireNativeComponent('RNTWelcomeView');
