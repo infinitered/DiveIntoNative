@@ -1,19 +1,13 @@
 //  DiveIntoNative
-//
-//  Created by Mark Rickert on 11/7/18.
-//  Copyright © 2018 Mark Rickert. All rights reserved.
-//
-
-#import "RNTWelcomeManager.h"
-
+// Subect to properties of:
+// https://developer.apple.com/documentation/uikit/uilabel
 @implementation RNTWelcomeManager
 
 RCT_EXPORT_MODULE()
-
 - (UIView *)view
 {
   UILabel *myTextView = [UILabel new];
-  myTextView.text = @"Hello World";
+  myTextView.text = @"WELCOME!";
   return myTextView;
 }
 
