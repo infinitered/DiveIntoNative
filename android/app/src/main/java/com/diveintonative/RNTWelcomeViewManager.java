@@ -20,8 +20,13 @@ public class RNTWelcomeViewManager extends SimpleViewManager<TextView> {
 
     @Override
     protected TextView createViewInstance(ThemedReactContext reactContext) {
-        TextView tv = new TextView(reactContext);
-        tv.setText("WELCOME!");
-        return tv;
+        TextView myTextView = new TextView(reactContext);
+        myTextView.setText("WELCOME!");
+        return myTextView;
+    }
+
+    @ReactProp(name = "text")
+    public void setText(TextView view, String myText) {
+        view.setText("WELCOME " + myText.toUpperCase() + "!");
     }
 }
