@@ -8,7 +8,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
-import Hello from './HelloNative'
+import Welcome from './WelcomeNative'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -24,14 +24,12 @@ export default class App extends Component<Props> {
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Hello style={{
-          // Flex doesn't work for some reason
-          // flex: 1,
-          // Manually specify width and height and the component
-          // works properly. Go  figure 🤷‍
-          width: 200,
-          height:200,
-          backgroundColor: '#eee'
+        <Welcome
+          text="friends"
+          style={{
+          width: 170,
+          height:20,
+          backgroundColor: 'yellow'
         }} />
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
