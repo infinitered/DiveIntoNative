@@ -37,7 +37,6 @@
 		2DCD954D1E0B4F2C00145EB5 /* DiveIntoNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DiveIntoNativeTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		38C05963219366A0008D2D8B /* RNTWelcomeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C05962219366A0008D2D8B /* RNTWelcomeManager.m */; };
-		38C05966219382BE008D2D8B /* RCTWelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C05965219382BE008D2D8B /* RCTWelcomeView.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
@@ -343,8 +342,6 @@
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C05961219366A0008D2D8B /* RNTWelcomeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNTWelcomeManager.h; sourceTree = "<group>"; };
 		38C05962219366A0008D2D8B /* RNTWelcomeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTWelcomeManager.m; sourceTree = "<group>"; };
-		38C05964219382BE008D2D8B /* RCTWelcomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTWelcomeView.h; sourceTree = "<group>"; };
-		38C05965219382BE008D2D8B /* RCTWelcomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTWelcomeView.m; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -496,8 +493,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				38C05964219382BE008D2D8B /* RCTWelcomeView.h */,
-				38C05965219382BE008D2D8B /* RCTWelcomeView.m */,
 			);
 			name = DiveIntoNative;
 			sourceTree = "<group>";
@@ -1126,7 +1121,6 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				38C05963219366A0008D2D8B /* RNTWelcomeManager.m in Sources */,
-				38C05966219382BE008D2D8B /* RCTWelcomeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,9 +1,10 @@
-#import <Foundation/Foundation.h>
+//  DiveIntoNative
+//
+//  Created by Mark Rickert on 11/7/18.
+//  Copyright © 2018 Mark Rickert. All rights reserved.
+//
 
-NS_ASSUME_NONNULL_BEGIN
+#import <React/RCTViewManager.h>
 
-@interface RNTWelcomeManager : NSObject
-
+@interface RNTWelcomeManager : RCTViewManager
 @end
-
-NS_ASSUME_NONNULL_END

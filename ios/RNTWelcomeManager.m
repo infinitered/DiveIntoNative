@@ -1,25 +1,20 @@
-#import <React/RCTViewManager.h>
-@interface RNTWelcomeManager : RCTViewManager
-@end
+//  DiveIntoNative
+//
+//  Created by Mark Rickert on 11/7/18.
+//  Copyright © 2018 Mark Rickert. All rights reserved.
+//
 
-#import "RCTWelcomeView.h"
+#import "RNTWelcomeManager.h"
 
 @implementation RNTWelcomeManager
 
-RCT_EXPORT_MODULE();
+RCT_EXPORT_MODULE()
 
 - (UIView *)view
 {
   UILabel *myTextView = [UILabel new];
   myTextView.text = @"Hello World";
-  myTextView.backgroundColor = UIColor.blueColor;
-  myTextView.frame = CGRectMake(0, 0, 200, 200);
   return myTextView;
 }
-
-//- (UIView *)view
-//{
-//  return [RCTWelcomeView new];
-//}
 
 @end

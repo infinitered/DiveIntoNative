@@ -24,7 +24,15 @@ export default class App extends Component<Props> {
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to React Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Hello style={{flex: 1}} />
+        <Hello style={{
+          // Flex doesn't work for some reason
+          // flex: 1,
+          // Manually specify width and height and the component
+          // works properly. Go  figure 🤷‍
+          width: 200,
+          height:200,
+          backgroundColor: '#eee'
+        }} />
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
     );
