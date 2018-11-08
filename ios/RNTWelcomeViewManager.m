@@ -14,7 +14,7 @@ RCT_EXPORT_MODULE()
 }
 
 // Would simply expose native text property => RCT_EXPORT_VIEW_PROPERTY(text, NSString)
- RCT_CUSTOM_VIEW_PROPERTY(text, NSString, UILabel)
+RCT_CUSTOM_VIEW_PROPERTY(text, NSString, __unused UILabel)
 {
   view.text = [NSString stringWithFormat:@"WELCOME %@!", [json uppercaseString]];
 }
